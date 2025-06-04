@@ -1,0 +1,1 @@
+# check_localizable_strings_file
