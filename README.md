@@ -4,8 +4,8 @@
 
 [Qwen对话过程](https://chat.qwen.ai/s/e2a1ec86-244e-42b1-a336-09f6d9ee3440?fev=0.0.107)
 
+![iTerm Screenshot](https://github.com/user-attachments/assets/331126b8-73df-4cf4-95fd-7a8125183a79)
 
-![iTerm Screenshot](https://github.com/user-attachments/assets/dc92997c-1ced-456a-8b83-64ee391d9356)
 
 ## 一、工具概述
 
