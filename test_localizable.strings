@@ -1,0 +1,28 @@
+/*
+  Localizable.strings
+  SocializeApp
+
+  Created by 冯洁亮 on 2025/5/16.
+  Copyright © 2025 RomanticEncounter. All rights reserved.
+*/
+
+/// MARK: 测试
+
+"你好" = "Hello";
+
+/// 单引号并不会引起Xcode的报错
+'你好' = '你好';
+
+"k" = "";
+
+"" = "v";
+
+”“ = "";
+
+
+
+"空格后缀 " = "";
+
+"缺少双引号" = "缺少双引号;
+
+"" = """;
