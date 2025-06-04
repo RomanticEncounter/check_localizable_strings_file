@@ -4,6 +4,9 @@
 
 [Qwen对话过程](https://chat.qwen.ai/s/e2a1ec86-244e-42b1-a336-09f6d9ee3440?fev=0.0.107)
 
+
+![iTerm Screenshot](https://github.com/user-attachments/assets/dc92997c-1ced-456a-8b83-64ee391d9356)
+
 ## 一、工具概述
 
 本工具专为解决 `iOS` 开发者在 `Xcode` 开发者工具中，无法精准检查`Localizable.strings`文件内具体报错问题的痛点而开发。基于 `Qwen3-235B-A22B` 大模型技术编写，它能快速且细致地对文件进行全面检查，涵盖分号结尾、单行注释、多行注释等多项关键内容，助力开发者高效提升多语言本地化工作的质量与效率。
