@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 import re
 
@@ -35,7 +36,7 @@ def check_strings_file(file_path):
             continue
 
         # 检查单行注释
-        if stripped_line.startswith('//'):
+        if stripped_line.startswith(('//', '///')):
             continue
 
         # 跳过空行
@@ -87,15 +88,15 @@ def check_strings_file(file_path):
 
     # 输出结果
     if errors:
-        print(f"‼️ Found {len(errors)} errors in {file_path}:")
+        print(f"💬 Found {len(errors)} errors in {file_path}:")
         for error in errors:
             print(error)
     else:
         print("✅ No issues found in the strings file.")
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 2:
-        print("Usage: python check_strings.py <file_path>")
+        print("Usage: csf <file_path>")
         sys.exit(1)
 
     file_path = sys.argv[1]
@@ -104,3 +105,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     check_strings_file(file_path)
+
+# 入口检查必须写在定义main函数的同一个文件中
+if __name__ == '__main__':
+    main()  # 调用main函数
