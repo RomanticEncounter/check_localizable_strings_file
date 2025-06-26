@@ -15,33 +15,38 @@
 
 ~~打开终端，`cd`到此工具文件路径下，输入以下命令~~
 ```diff
-- > python3 check_localizable_strings_file.py xxxxx/en.lproj/Localizable.strings
+- python3 check_localizable_strings_file.py xxxxx/en.lproj/Localizable.strings
 
-+ > cd path/localizable_strings_checker
++ cd path/localizable_strings_checker
 ```
 
 #### **步骤 1：创建虚拟环境**
+
 ```bash
-> python3 -m venv venv #创建虚拟环境
+python3 -m venv venv #创建虚拟环境
 ```
 #### **步骤 2：激活虚拟环境**
 
-```
-> source venv/bin/activate #激活虚拟环境
+```bash
+source venv/bin/activate #激活虚拟环境
 ```
 激活后，终端提示符会显示 (venv)，表示已进入虚拟环境。
 
-#### **步骤 3：在虚拟环境中安装依赖`**
+#### **步骤 3：在虚拟环境中安装依赖**
 
-```py
-> pip install setuptools
-> pip install -e .  # 安装你的工具
+```bash
+pip install setuptools #安装工具依赖
+pip install -e .  #安装你的工具到虚拟环境中
+
+csf test_localizable.strings #测试工具运行
 ```
+
 此时安装的包仅对当前虚拟环境生效，不会影响系统环境。
 
 #### **步骤 4：退出虚拟环境（可选）**
-```
-> deactivate
+
+```bash
+deactivate
 ```
 
 ## 三、检查内容详情
