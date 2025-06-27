@@ -14,7 +14,7 @@
 #### 项目结构如下：
 
 ```text
-csf-tool/
+localizable_strings_checker/
 ├── setup.py
 ├── README.md
 └── src/
